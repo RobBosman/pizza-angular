@@ -1,5 +1,6 @@
 # Angular demo
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+If you checkout the project and want to run the application ... don't forget to run `npm install` ;-)
 
 Below the steps to recreate this app.
 
