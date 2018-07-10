@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-8 col-md-offset-2">
+      <p>Names have been changed {{ nameChangeCount }} times.</p>
+
+      <ul class="list-group">
+        <li class="list-group-item" *ngFor="let account of accounts" (click)="onSelectAccount(account)">
+          {{ account.accountNumber }} - {{ account.registrationName }}
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-8 col-md-offset-2">
+      <hr>
+      <app-account [account]="selectedAccount" (nameChanged)="onNameChange($event)"></app-account>
+    </div>
+  </div>
+</div>
+
+
+
