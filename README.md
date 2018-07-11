@@ -1,4 +1,7 @@
 # Angular demo
+To start with the workshop it is necessary that both TypeScript and the Angular CLI have been installed.
+To do so run `npm install -g typescript` and `npm install -g @angular/cli`.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 If you checkout the project and want to run the application ... don't forget to run `npm install` ;-)
 
